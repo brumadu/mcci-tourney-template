@@ -1,0 +1,20 @@
+.card-team {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    background: var(--secondary-dark);
+    border-radius: 10px;
+  }
+ 
+.grid-team {
+    display: grid;
+    gap: 1rem;
+}
+
+.card:hover {
+    transform: translateY(-3px) scale(1.1);
+}
+

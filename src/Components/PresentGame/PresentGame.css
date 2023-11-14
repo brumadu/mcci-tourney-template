@@ -1,0 +1,18 @@
+.grid-game {
+    display: grid;
+    border-radius: 10px;
+    background: var(--secondary-dark);
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    margin-bottom: 15px;
+}
+
+.row-game {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-game {
+    height: 50px;
+}
+

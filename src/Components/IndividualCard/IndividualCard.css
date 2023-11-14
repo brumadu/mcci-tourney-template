@@ -1,0 +1,28 @@
+.grid-individual {
+    display: grid;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 500px;
+    background: var(--secondary-dark);
+}
+
+.scroll-individual {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box;
+}
+
+.title-individual {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    height: 45px;
+}
+
+.row-individual {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
